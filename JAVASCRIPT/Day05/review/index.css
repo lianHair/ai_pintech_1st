@@ -1,0 +1,52 @@
+/* 좋아하는 색깔 5개 배열로 넣은 뒤에
+ grid로 3열로 박스(100개) 형태로 넣기 */
+
+main {
+  width: 100vw;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  /* background-color: skyblue; */
+}
+
+.box1 {
+  width: 100px;
+  height: 100px;
+  background-color: skyblue;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  background-color: burlywood;
+}
+
+.box3 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.box4 {
+  width: 100px;
+  height: 100px;
+  background-color: palegreen;
+}
+
+.box5 {
+  width: 100px;
+  height: 100px;
+  background-color: pink;
+}
