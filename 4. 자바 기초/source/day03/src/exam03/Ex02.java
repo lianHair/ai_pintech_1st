@@ -6,7 +6,7 @@ public class Ex02 {
         System.out.println(result);
     }
     static int calc(int x) {  // x - 매개변수
-        int y = x * 2 + 3;
+        int y = x * 2 + 3; //
         return y;             // 함수 종료
     }
 }
